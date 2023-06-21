@@ -53,4 +53,4 @@ jobs:
           app-name: 'ahmedmeloulii'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB98CC8ED615471B9074DEB5566A8D23 }}
-          package: .
+          package: ./package.json
