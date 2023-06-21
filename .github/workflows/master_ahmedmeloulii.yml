@@ -53,8 +53,4 @@ jobs:
           app-name: 'ahmedmeloulii'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB98CC8ED615471B9074DEB5566A8D23 }}
-          package: ./portfolio
-
-       - name: Install back-end dependencies
-      working-directory: ./ # Navigate to the root directory
-      run: npm install
+          package: .
